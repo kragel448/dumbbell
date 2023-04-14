@@ -1,0 +1,81 @@
+.kfH {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ALs {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.FcK {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.w6K {
+  --poster-size: calc(0.8 * min(100vh, 100vw));
+  --primary-color: #ffcc00;
+}
+
+.og5 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 32px;
+  text-align: center;
+}
+
+.Jq3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 48px;
+  padding: 0 12px;
+  background: transparent;
+  color: inherit;
+  margin-top: 1em;
+}
+
+.Jq3:hover,
+.Jq3:focus-visible {
+  cursor: pointer;
+  color: #000;
+  background: #fff;
+}
+
+.XNl {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-top: -24px;
+  margin-left: -24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 4px solid currentColor;
+  border-top-color: transparent;
+  animation: DJg 600ms linear infinite;
+}
+
+@keyframes DJg {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
